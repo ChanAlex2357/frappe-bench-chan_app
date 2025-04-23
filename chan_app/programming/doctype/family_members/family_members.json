@@ -1,0 +1,61 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "FMB-.#####",
+ "creation": "2025-04-23 16:52:06.164833",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_ivl7",
+  "first_name",
+  "last_name",
+  "age",
+  "relation"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_ivl7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "First Name"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Age"
+  },
+  {
+   "fieldname": "relation",
+   "fieldtype": "Select",
+   "label": "Relation",
+   "options": "Parent\nSon\nDaughter\nGrand Parent\nUncle\nAunt\nCousin"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-04-23 18:22:22.343069",
+ "modified_by": "Administrator",
+ "module": "Programming",
+ "name": "Family Members",
+ "naming_rule": "Expression (old style)",
+ "owner": "chanalexjacques@gmail.com",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
